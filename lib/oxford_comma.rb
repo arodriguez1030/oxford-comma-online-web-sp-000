@@ -4,5 +4,5 @@ if array.length == 1
   elsif array.length == 2
   return array.join("and")
 else
-  
+  array[0,...,-2].join(",") +
 end
